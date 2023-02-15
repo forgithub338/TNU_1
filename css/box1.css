@@ -1,0 +1,41 @@
+#box_1{
+    position: fixed;
+    right: 0px;
+    top: 48px;
+    display: flex;
+    width: 488px;
+    height: 18px;
+    border: #0000 solid 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#item_1{
+    width:98px;
+    height: 18px;
+    border-left: black solid 2px;
+    border-right:black solid 2px;
+    font-size: smaller;
+}
+#item_2{
+    width:91px;
+    height: 18px;
+    border-right:black solid 2px;
+    font-size: smaller;
+    
+}
+#item_3{
+    width:114.5px;
+    height: 18px;
+    border-right:black solid 2px;
+    font-size: smaller;
+}
+#item_4{
+    width:98px;
+    height: 18px;
+    border-right:black solid 2px;
+    font-size: smaller;
+}
+#item_5{
+    width:86.5px;
+    height: 18px;
+    font-size: smaller;
+}
