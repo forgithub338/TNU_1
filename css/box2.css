@@ -1,0 +1,37 @@
+#box_2{
+    position: fixed;
+    right: 0px;
+    top: 85px;
+    display: flex;
+    width: 453px;
+    height: 25px;
+    border: #0000 solid 1px;
+    z-index: 4;
+}
+#box_2_item_1{
+    font-size:large;
+    width:73.5px;
+    margin-right: 52px;
+    z-index: 4;
+}
+#box_2_item_2{
+    font-size:large;
+    width:40px;
+    margin-right: 50px;
+    z-index: 4;
+}
+#box_2_item_3{
+    font-size:large;
+    width:40px;
+    margin-right: 50px;
+}
+#box_2_item_4{
+    font-size:large;
+    width:40px;
+    margin-right: 45px;
+}
+#box_2_item_5{
+    font-size:large;
+    width:40px;
+    margin-right: 22.5px;
+}
