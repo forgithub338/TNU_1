@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>國立臺灣大學</title>
+        <link rel="icon" type="image/x-icon" href="image/Emblem.jpg">
+        <style>
+            body{
+                background: url("image/cover_1.jpeg");
+                background-size: cover;
+            }
+
+            #title_background{
+                background-color:white;
+                background:linear-gradient(to bottom, #fff, #0000 );
+                height:120px;
+                width:100%;
+                position:fixed;
+                z-index: -1;
+                top:0px;
+                left:0px;
+            }
+            #title_background_2{
+                background-color:white;
+                opacity: 0;
+                height:120px;
+                width:100%;
+                position:fixed;
+                z-index: -1;
+                top:0px;
+                left:0px;
+                border-bottom: #0000 solid 1px;
+            }
+
+            #title{
+                position: fixed;
+                top:35px;
+                left:53px;
+            }            
+            a{
+                color:black;
+                text-decoration:none;
+            }
+            a:hover{
+                color:#990000;
+            }
+
+            .underline:hover{
+                padding-bottom: 30px;
+                border-bottom: #990000 solid 4px;
+
+            }
+            #undertitle_1{
+                background-color: #fff;
+                height:283px;
+                width:100%;
+                position: fixed;
+                top:121px;
+                left:0px;
+                opacity: 0;
+                z-index: 0;
+            }
+            .under_title_1_item:hover{
+                border-bottom: #990000 solid 1px;
+            }
+            #undertitle_2{
+                background-color: #fff;
+                height:283px;
+                width:100%;
+                position: fixed;
+                top:121px;
+                left:0px;
+                opacity: 0;
+                z-index: 0;
+            }
+            .under_title_2_item:hover{
+                border-bottom: #990000 solid 1px;
+            }
+            #undertitle_3{
+                background-color: #fff;
+                height:283px;
+                width:100%;
+                position: fixed;
+                top:121px;
+                left:0px;
+                opacity: 0;
+                z-index: 0;
+            }
+
+            #lower_right{
+                position: fixed;
+                bottom: 0px;
+                right:0px;
+                width:90px;
+                height:249px;
+                background-color: #fff;
+                opacity:0.8;
+            }
+            #lower_right_font{
+                position: relative;
+                top:48px;
+                left:33px
+            }
+        </style>
+
+
+        <link rel="stylesheet" href="css//box1.css">
+        <link rel="stylesheet" href="css//box2.css">
+        <link rel="stylesheet" href="css//lower_left.css">
+    </head>
+
+
+
+    <body>
+        <img src="image/background.png" style = "opacity:0.4;position:fixed;bottom: 0px;left:0px;height:480px;">
+        
+        <div id = "title_background"></div><!--上區白色背景-->
+        <div id = "title_background_2"></div>
+
+        <div id = "undertitle_1">
+            <img id = "for_undertitle_1_1" src = "image/undertitle_1.jpg" style = "height: 283px;width: 400px">
+            <div id = "for_undertitle_1_2" style = "position: fixed;top: 126px;left: 425px;font-size:35px;padding: 15px;border-bottom: #990000 solid 1px;">認識台大</div>  
+            <div id = "for_undertitle_1_3" style = "position: fixed;top: 289px;left: 497px;height: 30px;width: 750px;border: #0000 solid 1px;display: flex;">
+                <div class = "under_title_1_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/about/about.html">有關臺大</a></div>
+                <div class = "under_title_1_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/administration/administration.html">行政組織</a></div>
+                <div class = "under_title_1_item" style = "margin-right: 54px;"><a href = "https://www.ntu.edu.tw/about/history.html">臺大校史</a></div>
+                <div class = "under_title_1_item" style = "margin-right: 60px;"><a href = "https://www.ntu.edu.tw/about/map.html">地圖與交通資訊</a></div>
+                <div class = "under_title_1_item" style = "margin-right: 54px;"><a href = "https://www.ntu.edu.tw/about/statistics.html">資訊公開/年報</a></div>
+                <div class = "under_title_1_item" ><a href = "https://sustainable.ntu.edu.tw/">永續臺大</a></div>
+            </div> 
+        </div>
+
+        <div id = "undertitle_2">
+            <img id = "for_undertitle_2_1" src = "image/undertitle_2.jpg" style = "height: 283px;width: 400px">
+            <div id = "for_undertitle_2_2" style = "position: fixed;top: 126px;left: 425px;font-size:35px;padding: 15px;border-bottom: #990000 solid 1px;">教學</div>  
+            <div id = "for_undertitle_2_3" style = "position: fixed;top: 289px;left: 497px;height: 30px;width: 750px;border: #0000 solid 1px;display: flex;">
+                <div class = "under_title_2_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/about/about.html">學術單位</a></div>
+                <div class = "under_title_2_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/academics/academics.html#otherUnit">其他教學單位</a></div>
+            </div> 
+        </div>
+
+        <div id = "undertitle_3">
+            <img id = "for_undertitle_3_1" src = "image/undertitle_3.jpg" style = "height: 283px;width: 400px">
+            <div id = "for_undertitle_3_2" style = "position: fixed;top: 126px;left: 425px;font-size:35px;padding: 15px;border-bottom: #990000 solid 1px;">研究</div>  
+            <div id = "for_undertitle_3_3" style = "position: fixed;top: 289px;left: 497px;height: 30px;width: 750px;border: #0000 solid 1px;display: flex;">
+                <div class = "under_title_3_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/research/research.html">臺大研究</a></div>
+                <div class = "under_title_3_item" style = "margin-right: 48px;"><a href = "https://www.ntu.edu.tw/research/researchdep.html">研究單位</a></div>
+                <div class = "under_title_3_item" style = "margin-right: 54px;"><a href = "https://ord.ntu.edu.tw/">研究服務</a></div>
+                <div class = "under_title_3_item" style = "margin-right: 60px;"><a href = "https://scholars.lib.ntu.edu.tw/">學術典藏</a></div>
+                <div class = "under_title_3_item" style = "margin-right: 54px;"><a href = "https://www.grb.gov.tw/GRB/execOrgSearch.jsp?execOrgan=FA01">政府研究資訊GRB</a></div>
+                <div class = "under_title_3_item" ><a href = "https://www.lib.ntu.edu.tw/">圖書館</a></div>
+            </div> 
+        </div>
+        
+        <div id = "background_3" style = "height: 50%;width: 100%;top: 404px;left: 0px;background-color: #0000;position: fixed;"></div>
+        <div id = "background_4" style = "height: 120px;width: 100%;top: 0px;left: 0px;background-color: #0000;position: fixed;"></div>
+        
+        <div id = "for_b1i3_box" style = "position: fixed;top: 30px;right: 186px;height: 263px;width: 112.5px;background-color: #fff;">
+            <div style="width:80px;position: relative;top:50px;left: 10px;font-size: 15px;padding-left: 5px;padding-right: 5px;padding-top: 15px;padding-bottom: 15px;border-top: rgba(90,90,90,0.2) solid 1px;border-bottom:rgba(90,90,90,0.2) solid 1px;text-align: center;"><a href = "https://www.ntu.edu.tw/student.html">學生</a></div>
+            <div style="width:80px;position: relative;top:50px;left: 10px;font-size: 15px;padding-left: 5px;padding-right: 5px;padding-top: 15px;padding-bottom: 15px;border-bottom:rgba(90,90,90,0.2) solid 1px;text-align: center;"><a href = "https://www.ntu.edu.tw/faculty.html">教職員</a></div>
+            <div style="width:80px;position: relative;top:50px;left: 10px;font-size: 15px;padding-left: 5px;padding-right: 5px;padding-top: 15px;padding-bottom: 15px;border-bottom:rgba(90,90,90,0.2) solid 1px;text-align: center;"><a href = "https://www.alumni.ntu.edu.tw/">校友</a></div>
+            <div style="width:80px;position: relative;top:50px;left: 10px;font-size: 15px;padding-left: 5px;padding-right: 5px;padding-top: 15px;padding-bottom: 15px;text-align: center;"><a href = "https://visitorcenter.ntu.edu.tw/">訪客</a></div>
+        </div>    
+        <div id = "title" >
+            <a href = "https://www.ntu.edu.tw/"><img src="image/title.svg" height="69px"></a>
+            <!--box1-->
+            <div id = "box_1">
+            <div id = "item_1"><a href = "https://www.ntu.edu.tw/sitemap.html">&emsp;&ensp;網站導覽</a></div>
+            <div id = "item_2"><a href = "https://www.ntu.edu.tw/english/sitemap.html">&emsp;&ensp;English</a></div>
+            <div id = "item_3"><a>&emsp;&ensp;使用對象&ensp;∨</a></div>
+            <div id = "item_4"><a href = "https://ntuweb.cloud.ntu.edu.tw/oldwebsite/20221230/">&emsp;&ensp;舊版網站</a></div>
+            <div id = "item_5">&emsp;&ensp;搜尋</div>
+        </div>
+        
+        <img src="image/magnifier.png" style="position:fixed;top:52px;right:20px;height: 13px;"> 
+        
+        <div id = "for_b1i5_box" style = "position:fixed;top: 66px;right: 115px;height: 58px;width: 532px;background-color: white;border: #990000 solid 1px;opacity: 0;">
+            <img src = "image/search.svg" style = "position: relative;top:6px;padding-top: 16px;padding-bottom: 15px;padding-left: 28px;padding-right: 26px;border-right: #990000 solid 1px;">
+            <input type="text" style = "outline: none;padding: 0px;padding-left: 15px;padding-right: 15px;height: 42px;min-width: 428px;font-size: 20px;position: fixed;top:74px;right:117px;border: none;">
+        </div>
+        <button id = "for_b1i5_button" style="position: fixed;top:66px;right:0px;height:58px;width:110px;background-color: #333;color: #fff;border: none;opacity: 0;">搜尋</button>
+
+        
+
+
+        <div id ="box_2">
+            <div class = "underline" id ="box_2_item_1"><a href = "https://www.ntu.edu.tw/about/about.html">認識臺大</a></div>
+            <div class = "underline" id ="box_2_item_2"><a href = "https://www.ntu.edu.tw/academics/academics.html">教學</a></div>
+            <div class = "underline" id ="box_2_item_3"><a href = "https://www.ntu.edu.tw/research/research.html">研究</a></div>
+            <div class = "underline" id ="box_2_item_4"><a href = "https://admissions.ntu.edu.tw/%e9%a6%96%e9%a0%81/">招生</a></div>
+            <div class = "underline" id ="box_2_item_5"><a href = "https://www.ntu.edu.tw/campus/campus.html">校園</a></div>
+        </div>
+
+        <div id = "lower_left_Chinese"  >開創未來</div>
+        <div id = "lower_left_English">Pioneering the Future</div>
+        <div id = "lower_left_circle"></div>
+        <div id = "lower_left_triangle"></div>
+        <div id = "lower_left_small_circle_1"></div>
+        <div id = "lower_left_small_circle_2"></div>
+        <div id = "lower_left_small_circle_3"></div>
+        <div id = "lower_left_small_circle_4"></div>
+
+        <div id = "lower_right">
+            <img id = "lower_right_font" src = "image/lower_right_font.svg">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
